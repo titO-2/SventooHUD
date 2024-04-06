@@ -4,14 +4,14 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HealthBG"
-		"xpos"		"64"		[$OSX]
-		"xpos"		"54"		[!$OSX]
-		"ypos"		"133"		[$OSX]
-		"ypos"		"136"		[!$OSX]
+		"xpos"		"60"		[$OSX]
+		"xpos"		"50"		[!$OSX]
+		"ypos"		"180"		[$OSX]
+		"ypos"		"120"		[!$OSX]
 		"zpos"		"4"
 		"wide"		"106"		[$OSX]
-		"wide"		"120"		[!$OSX]
-		"tall"		"45"
+		"wide"		"90"		[!$OSX]
+		"tall"		"40"
 		"autoResize"	"0"
 		"pinCorner"	"0"
 		"visible"		"1"
@@ -34,8 +34,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"east"			
-		"font"			"Heavy36"		[$OSX]
-		"font"			"Heavy48"		[!$OSX]
+		"font"			"Heavy38"		[$OSX]
+		"font"			"Heavy38"		[!$OSX]
 		"fgcolor"		"Orange"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -43,7 +43,7 @@
 		"ControlName"	 "CExLabel"	
 		"fieldName"	 "PlayerStatusHealthValueShadow"	
 		"xpos"	 "31"	
-		"ypos"	 "118"	
+		"ypos"	 "119"	
 		"zpos"	 "3"	
 		"wide"	 "90"	
 		"tall"	 "40"	
@@ -51,8 +51,8 @@
 		"enabled"	 "1"	
 		"labelText"	 "%Health%"	
 		"textAlignment"	 "east"	
-		"font"			"Heavy36"		[$OSX]
-		"font"			"Heavy48"		[!$OSX]
+		"font"			"Heavy38"		[$OSX]
+		"font"			"Heavy38"		[!$OSX]
 		"fgcolor"	 "HudShadow"
 	}
 	"PlayerStatusMaxHealthValue"
@@ -60,11 +60,11 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
 		"xpos"			"9"
-		"ypos"			"162"
-		"zpos"			"6"
-		"wide"			"159"
+		"ypos"			"170"
+		"zpos"			"10"
+		"wide"			"140"
 		"tall"			"57"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"east"	
@@ -80,7 +80,7 @@
 		"zpos"			"6"
 		"wide"			"159"
 		"tall"			"57"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"east"	
